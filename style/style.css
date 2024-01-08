@@ -230,7 +230,7 @@
 
 /* portfolio section */
 .portfolio {
-  margin: 10px;
+  margin: 50px;
   padding: 50px;
 }
 .gallery-one {
@@ -241,8 +241,17 @@
   display: flex;
   padding: 20px 100px 20px 0px;
 }
+/* newslater style */
+.ebox {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 .newslater {
   justify-content: center;
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  padding: 50px;
 }
 .bottom-text {
   color: #070211;
@@ -257,6 +266,27 @@
   font-family: Inter;
   font-size: 20px;
   font-weight: 400;
+}
+form {
+  margin: 50px;
+}
+.Subscribe {
+  border-radius: 0px 50px 50px 0px;
+  background: #f00;
+  border: 0px;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 20px 30px;
+}
+.email-box {
+  border-radius: 50px 0px 0px 50px;
+  background: #fff;
+  border: 0px;
+  padding: 25px 30px;
+  outline: none;
 }
 
 /* footer style */
@@ -275,6 +305,7 @@
   font-size: 16px;
   font-weight: 500;
 }
+
 .social-links {
   display: flex;
   justify-content: center;
