@@ -69,6 +69,9 @@
   background-image: url("../resources/Vectorrr.png");
   background-repeat: no-repeat;
   background-position: center;
+  display: flex;
+  align-items: center;
+  padding: 100px;
 }
 .party-title {
   color: #fff;
@@ -90,3 +93,42 @@
   font-weight: 700;
   border: none;
   background-color: transparent;
+}
+
+.info span {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+}
+.info {
+  color: #070211;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+  text-align: center;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  padding: 100px;
+  border-radius: 16px;
+}
+.btn {
+  padding: 16px 32px;
+  display: inline-flex;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: none;
+  border-radius: 8px;
+  background: #f00;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+}
