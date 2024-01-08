@@ -132,3 +132,56 @@
   font-size: 20px;
   font-weight: 700;
 }
+
+/* coming soon style */
+.coming-soon {
+  display: flex;
+  margin: 50px;
+  align-items: center;
+}
+
+.cs-sub {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: left;
+  margin-bottom: 10px;
+}
+.cs-title {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  margin: 0px;
+}
+.cs-text {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+.coming-soon-img {
+  border-radius: 463px;
+  border: 15px solid #f00;
+  margin-right: 50px;
+}
+.cs-img {
+  margin: 40px;
+}
+.cs-footer {
+  color: #f00;
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 700;
+}
+.cs-footer-text {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+}
