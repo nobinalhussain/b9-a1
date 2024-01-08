@@ -136,7 +136,7 @@
 /* coming soon style */
 .coming-soon {
   display: flex;
-  margin: 50px;
+  margin: 20px;
   align-items: center;
 }
 
@@ -226,4 +226,65 @@
 
 .holiday-sub-img {
   position: bottom left;
+}
+
+/* portfolio section */
+.portfolio {
+  margin: 10px;
+  padding: 50px;
+}
+.gallery-one {
+  display: flex;
+  padding: 20px 100px 20px 0px;
+}
+.gallary-two {
+  display: flex;
+  padding: 20px 100px 20px 0px;
+}
+.newslater {
+  justify-content: center;
+}
+.bottom-text {
+  color: #070211;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+}
+.bottom-des {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+/* footer style */
+.footer {
+  background: #070211;
+  padding: 120px 140px;
+}
+.hr {
+  background: rgba(255, 255, 255, 0.15);
+}
+.contact {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+}
+.social-links {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.copy-right {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
 }
