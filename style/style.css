@@ -1,6 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+/* google font */
 
-/* header style */
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/* header and banner style */
+
 .banner {
   background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
   background-image: url("../resources/Banner\ Image.png");
@@ -31,3 +35,58 @@
   font-weight: 900;
   font-family: "Merriweather", serif;
 }
+
+/* ALL CATEGORIES SECTION */
+
+.discount {
+  color: #f00;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 88px;
+  font-weight: 700;
+}
+.discount-des {
+  color: #f00;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 5px;
+  font-family: "Inter", sans-serif;
+}
+.discount-categories {
+  color: #070211;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  margin-top: 0px;
+}
+.discount-img {
+  margin: 30px 300px;
+}
+/* midnight party section */
+.midnight-party {
+  background-image: url("../resources/Vectorrr.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.party-title {
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 64px;
+  font-weight: 900;
+}
+.party-des {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+}
+.button {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  border: none;
+  background-color: transparent;
