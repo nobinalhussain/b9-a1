@@ -7,12 +7,19 @@
   margin: 0px;
   padding: 0px;
 }
+header {
+  width: 82%;
+  max-width: 1320px;
+  margin: 0 auto;
+  overflow-x: hidden;
+}
 main {
   width: 82%;
   max-width: 1320px;
   margin: 0 auto;
   overflow-x: hidden;
 }
+
 /* header and banner style */
 
 .banner {
@@ -24,7 +31,6 @@ main {
   margin: 50px 0px;
   padding: 0px 240px;
 }
-
 .sub-heading {
   text-align: center;
   padding-top: 120px;
