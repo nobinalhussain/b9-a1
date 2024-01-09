@@ -3,9 +3,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
+* {
+  margin: 0px;
+  padding: 0px;
+}
 body {
-  height: 100vh;
-  width: 100vw;
+  width: 82%;
+  max-width: 1320px;
+  margin: 0 auto;
   overflow-x: hidden;
 }
 /* header and banner style */
@@ -15,13 +20,14 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  margin: 50px 100px;
   border-radius: 16px;
+  margin: 50px 0px;
+  padding: 0px 240px;
 }
 
 .sub-heading {
   text-align: center;
-  padding-top: 150px;
+  padding-top: 120px;
   color: #fff;
   text-align: center;
   font-size: 32px;
@@ -30,12 +36,12 @@ body {
 }
 .heading-title {
   text-align: center;
-  padding: 0px 300px 150px 300px;
   color: #fff;
   text-align: center;
   font-size: 72px;
   font-weight: 900;
   font-family: "Merriweather", serif;
+  padding-bottom: 120px;
 }
 
 /* ALL CATEGORIES SECTION */
@@ -64,7 +70,7 @@ body {
   margin-top: 0px;
 }
 .discount-img {
-  margin: 30px 300px;
+  margin: 30px 200px;
 }
 /* midnight party section */
 .midnight-party {
@@ -73,15 +79,18 @@ body {
   background-position: center;
   display: flex;
   align-items: center;
-  margin: 50px 100px;
   border-radius: 16px;
-  padding: 60px;
+  padding: 50px 80px;
 }
 .party-title {
   color: #fff;
   font-family: Merriweather;
   font-size: 64px;
+  font-style: normal;
   font-weight: 900;
+  line-height: 88px; /* 137.5% */
+  letter-spacing: 7.04px;
+  margin-bottom: 20px;
 }
 .party-des {
   color: rgba(255, 255, 255, 0.8);
@@ -97,6 +106,8 @@ body {
   font-weight: 700;
   border: none;
   background-color: transparent;
+  cursor: pointer;
+  margin: 20px;
 }
 
 .info span {
@@ -117,7 +128,7 @@ body {
     rgba(255, 0, 0, 0.1) 0%,
     rgba(255, 0, 0, 0) 100%
   );
-  margin: 50px 100px;
+  margin: 80px 0px;
   padding: 100px;
   border-radius: 16px;
 }
@@ -127,7 +138,6 @@ body {
   padding: 16px 32px;
   justify-content: center;
   align-items: center;
-  gap: 10px;
   border: none;
   border-radius: 8px;
   background: #f00;
@@ -136,12 +146,13 @@ body {
   font-family: Inter;
   font-size: 20px;
   font-weight: 700;
+  cursor: pointer;
+  margin-top: 50px;
 }
 
 /* coming soon style */
 .coming-soon {
   display: flex;
-  margin: 50px 100px;
   align-items: center;
 }
 
@@ -149,7 +160,7 @@ body {
   color: #f00;
   text-align: center;
   font-family: Inter;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 500;
   text-align: left;
   margin-bottom: 10px;
@@ -164,8 +175,10 @@ body {
 .cs-text {
   color: rgba(7, 2, 17, 0.6);
   font-family: Inter;
-  font-size: 20px;
+  font-size: 18px;
+  font-style: normal;
   font-weight: 400;
+  line-height: 32px; /* 160% */
   margin-top: 20px;
 }
 
@@ -285,6 +298,7 @@ form {
   font-size: 18px;
   font-weight: 600;
   padding: 20px 30px;
+  cursor: pointer;
 }
 .email-box {
   border-radius: 50px 0px 0px 50px;
