@@ -7,7 +7,7 @@
   margin: 0px;
   padding: 0px;
 }
-body {
+main {
   width: 82%;
   max-width: 1320px;
   margin: 0 auto;
@@ -248,8 +248,7 @@ body {
 
 /* portfolio section */
 .portfolio {
-  margin: 50px;
-  padding: 50px;
+  max-width: 1320px;
 }
 .gallery-one {
   display: flex;
@@ -277,6 +276,7 @@ body {
   font-family: Merriweather;
   font-size: 48px;
   font-weight: 900;
+  margin-bottom: 20px;
 }
 .bottom-des {
   color: rgba(7, 2, 17, 0.6);
@@ -284,10 +284,9 @@ body {
   font-family: Inter;
   font-size: 20px;
   font-weight: 400;
+  margin-bottom: 20px;
 }
-form {
-  margin: 50px;
-}
+
 .Subscribe {
   border-radius: 0px 50px 50px 0px;
   background: #f00;
@@ -311,7 +310,8 @@ form {
 /* footer style */
 .footer {
   background: #070211;
-  padding: 120px 140px;
+  padding: 100px 140px;
+  margin: 0px;
 }
 .hr {
   background: rgba(255, 255, 255, 0.15);
@@ -323,12 +323,14 @@ form {
   font-family: Inter;
   font-size: 16px;
   font-weight: 500;
+  margin-bottom: 50px;
 }
 
 .social-links {
   display: flex;
   justify-content: center;
-  padding: 20px;
+  gap: 20px;
+  padding: 30px;
 }
 .copy-right {
   display: flex;
@@ -337,4 +339,5 @@ form {
   font-family: Inter;
   font-size: 16px;
   font-weight: 500;
+  margin-top: 50px;
 }
